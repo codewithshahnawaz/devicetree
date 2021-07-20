@@ -1,0 +1,33 @@
+.card {
+  height: 25rem;
+  width: 25rem;
+  background: #f7f7f7;
+  border-radius: 3.6rem;
+  border: 0.1rem solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.card:hover {
+  background: #ebebeb;
+}
+
+.define {
+  font-size: 1.6rem;
+}
+
+.define-h1 {
+  font-size: 2.5rem;
+}
+
+.icon {
+  width: 40%;
+  height: auto;
+  object-fit: fill;
+  padding: 1rem;
+  border-radius: 2rem;
+}
