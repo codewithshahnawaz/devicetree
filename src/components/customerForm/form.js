@@ -28,9 +28,10 @@ export const TextArea = () => {
         name="customerDetails"
         placeholder="Write your issue"
         maxLength="500"
-      />
+      /> 
       <b className="subtitle">or</b> <br />
       <b className="subtitle">Record your voice</b>
+      <div className="mergeWithMicro">
       {voiceData === "" ? (
         <ReactMic
           record={recording}
@@ -58,6 +59,7 @@ export const TextArea = () => {
       ) : (
         <BsFillMicFill className="icon-mic" onClick={toggleRecording} />
       )}
+      </div>
     </div>
   );
 };

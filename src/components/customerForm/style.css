@@ -8,59 +8,63 @@
 }
 
 *:focus {
-    outline: none;
+  outline: none;
 }
 
 .form textarea {
   resize: none;
   width: 100%;
   height: 100%;
-  padding:1rem;
-  font-size:2.2rem;
+  padding: 1rem;
+  font-size: 2.2rem;
   border-radius: 1rem;
 }
 
 .mergeWithMicro {
-    width: 100%;
-    height: 100%;
-    position: relative;
+  width: 100%;
+  /* height: 20%; */
+  position: relative;
 }
 
 .icon-mic {
-    /* font-size:2.5rem; */
-    height:5rem;
-    width: 5rem;
-    background:#f7f7f7;
-    padding:1rem;
-    border-radius: 100%;
-    position:absolute;
-    bottom:5%;
-    left:71%;
-    border: 0.1rem solid #ccc;
-    cursor: pointer;
+  /* font-size:2.5rem; */
+  height: 5rem;
+  width: 5rem;
+  background: #f7f7f7;
+  padding: 1rem;
+  border-radius: 100%;
+
+  border: 0.1rem solid #ccc;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-bottom:2rem
 }
 
-.sound-wave{
-    position: absolute;
+.sound-wave {
+  /* position: absolute;
     bottom:5%;
-    left:22%;
-    width: 48%;
-    height:5rem;
-    border-radius: 1rem;
+    left:22%; */
+    margin-bottom:2rem;
+  width: 90%;
+  height: 5rem;
+  border-radius: 1rem;
+  border: .1rem solid #cfcfcf;
 }
 .voice_link {
-    display:block;
-    padding:1rem;
-    position:absolute;
-    width:25%;
-    text-align:center;
-    height:4rem;
-    line-height:2rem;
-    background:#222;
-    color: #fff;
-    text-transform: uppercase;
-    text-decoration: none;
-    border-radius:1rem;
-    top:82.5%;
-    left:2.5%;
+  display: inline-block;
+  padding: 1rem;
+  width: 90%;
+  text-align: center;
+  height: 5rem;
+  line-height: 3rem;
+  background: #222;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 1rem;
+}
+
+.subtitle{
+    font-size:2rem;
+    padding: 1rem;
 }
