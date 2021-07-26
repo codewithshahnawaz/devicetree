@@ -24,7 +24,7 @@ export const TextArea = () => {
   };
 
   return (
-    <div className="form">
+    <div className="form_mre">
       <textarea
         name="customerDetails"
         placeholder="Write your issue"

@@ -1,4 +1,4 @@
-.form {
+.form_mre {
   width: 72rem;
   height: 34rem;
   display: flex;
@@ -11,7 +11,7 @@
   outline: none;
 }
 
-.form textarea {
+.form_mre textarea {
   resize: none;
   width: 100%;
   height: 100%;
