@@ -9,7 +9,6 @@ const MoreAboutIssue = () => {
   return (
     <div>
       <h1 className="title">Tell us more about issue</h1>
-      <p className="subtitle">Tell us by typing</p>
       <Breadcrumbs path={location.pathname} />
       <div className="flex-column">
         <TextArea />
