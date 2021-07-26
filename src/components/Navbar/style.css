@@ -26,8 +26,8 @@ p {
   font-weight: bold;
   font-size:1.2rem;
   padding:1rem;
-  border: .15rem solid #e7e5e5;
+  /* border: .15rem solid #e7e5e5; */
   margin:1rem auto;
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
   color:rgb(1, 56, 92)
 }

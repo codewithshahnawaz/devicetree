@@ -79,19 +79,6 @@ export const TextArea = () => {
             }}
           />
         )}
-        <button
-          style={{
-            padding: "1rem",
-            width: "15%",
-            marginTop: "2rem",
-            marginRight: "6rem",
-            position:"absolute",
-            top:'5rem',
-            left:"30rem",
-          }}
-        >
-          Next
-        </button>
       </div>
     </div>
   );
