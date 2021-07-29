@@ -1,6 +1,7 @@
 import React from "react";
-
+import { useHistory } from "react-router-dom";
 const Customerinfo = () => {
+  const history = useHistory();
   return (
     <div>
       <div className="form">
@@ -17,9 +18,15 @@ const Customerinfo = () => {
             placeholder="Phone"
           />
           <input type="email" placeholder="E-mail" />
-          <input type="text" placeholder="Address" />
+          {/* <input type="text" placeholder="Address" /> */}
+          <textarea
+            style={{ width: "75%", height: "25%" }}
+            placeholder="Address"
+            maxLength="125"
+            resizable="off"
+          ></textarea>
         </form>
-        <button>Next</button>
+        <button onClick={() => history.push("/review-info")}>Next</button>
       </div>
     </div>
   );

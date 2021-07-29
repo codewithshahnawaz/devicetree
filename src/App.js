@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar/Navbar";
 import MoreAboutIssue from "./pages/moreAboutIssue";
 import Deviceinfo from "./pages/deviceinfo";
 import Customerinfo from "./pages/customerinfo";
+import Reviewinfo from "./pages/reviewinfo";
 function App() {
   return (
     <div>
@@ -33,6 +34,9 @@ function App() {
           </Route>
           <Route path="/customer-info">
             <Customerinfo />
+          </Route>
+          <Route path="/review-info">
+            <Reviewinfo />
           </Route>
         </Switch>
       </Router>

@@ -1,28 +1,35 @@
-*, *::after,*::before{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html{
+html {
   scroll-behavior: smooth;
-  font-size:10px;
+  font-size: 10px;
 }
 
-h1{
-  font-size:3.5rem;
-  font-weight:400
+h1 {
+  font-size: 3.5rem;
+  font-weight: 400;
 }
-
 
 body {
   margin: 0;
-  font-family: 'Roboto',sans-serif;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
